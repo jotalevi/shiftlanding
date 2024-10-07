@@ -5,11 +5,13 @@
         <title>Shift Consulting - ERP Migration and Consulting</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/53012f775c.js"
+            crossorigin="anonymous"></script>
         <link
             href="https://fonts.googleapis.com/css?family=Kumbh+Sans:300,400,500,600,700"
             rel="stylesheet">
     </head>
-    <body class="loading">
+    <body class="loading theme-container light">
         <div class="nav-container">
             <div class="nav-div">
                 <div class="nav-div-item left">
@@ -23,6 +25,9 @@
                     <a href="#faq" class="nav-link">FAQ</a>
                 </div>
                 <div class="nav-div-item right">
+                    <label class="dark-mode-label" for="dark-mode" onclick="toggleDarkMode()">
+                        <i class="fa-solid fa-moon"></i>
+                    </label>
                     <div class="primary-button"
                         onclick="window.location.href = '#contact'">
                         Contact
@@ -54,16 +59,16 @@
                 the top CRM and ERP platforms:</p>
             <div class="card2t1i" style=" margin: 0 auto;margin-top: 25px;">
                 <div class="textsideleft" style="padding-left: 20px;">
-                    <p class="subtitle"
-                        style="text-align: left; max-width: 40%; color: black;">
+                    <p class="subtitle stronk"
+                        style="text-align: left; max-width: 40%;">
                         <span
-                            style="font-weight: 700;color:black;">Salesforce</span>:
+                            style="font-weight: 700;">Salesforce</span>:
                         Boost customer engagement and streamline sales with a
                         flexible, cloud-based CRM.</p>
-                    <p class="subtitle"
-                        style="text-align: left;max-width: 40%; color: black;">
+                    <p class="subtitle stronk"
+                        style="text-align: left;max-width: 40%;">
                         <span
-                            style="font-weight: 700;color:black;">Microsoft
+                            style="font-weight: 700;">Microsoft
                             Dynamics</span>: Integrate ERP and CRM to optimize
                         operations and gain real-time business insights.</p>
                 </div>
@@ -351,8 +356,8 @@
     <section class="still-not-convinced"
         style="margin-top: 75px;">
         <p class="big">Still Not Convinced?</p>
-        <p class="title"
-            style="margin: 0 auto; margin-top: 25px; margin-bottom: 500; color:rgba(0, 0, 0, 0.75); max-width: 50%; text-align: center;">
+        <p class="title snc"
+            style="margin: 0 auto; margin-top: 25px; margin-bottom: 500; max-width: 50%; text-align: center;">
             If you’re still on the fence about migrating your ERPs, we get it!
             It’s a big decision, and you want to be sure you’re making the right
             choice. Here’s the deal: Our clients love us because we’re not just
@@ -406,7 +411,8 @@
                     <p class="title" style="text-align: left;">
                         Phone Number
                     </p>
-                    <input type="text" class="input" placeholder="+99 9 9999 9999"
+                    <input type="text" class="input"
+                        placeholder="+99 9 9999 9999"
                         name="Phone Number" id="phoneNumberInput">
                 </div>
             </div>
