@@ -7,6 +7,7 @@ body {
   background-image: url("assets/background-dots.png");
   background-repeat: repeat;
   background-size: 25px;
+  background-color: #ffffff;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 500;
   margin: 0px;
