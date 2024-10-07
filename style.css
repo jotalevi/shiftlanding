@@ -54,6 +54,7 @@
   --c-fade3: #ffffff83;
   --c-fade4: #ffffff36;
   --c-fade5: hsla(0, 0%, 100%, 0);
+  --invert-image: 0;
 
   color: var(--c-text);
   background-color: var(--c-background);
@@ -79,9 +80,15 @@
   --c-fade3: #00000083;
   --c-fade4: #00000036;
   --c-fade5: hsla(0, 0%, 0%, 0);
+  --invert-image: 1;
 
   color: var(--c-text);
   background-color: var(--c-background);
+}
+
+.invert-image {
+  transition: all 0.2s ease-in-out;
+  filter: invert(var(--invert-image));
 }
 
 .visually-hidden {
