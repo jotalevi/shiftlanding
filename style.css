@@ -460,3 +460,7 @@ a.nav-link:hover {
   justify-content: flex-start;
   align-items: center;
 }
+
+input {
+    padding-left: 10px;
+}
